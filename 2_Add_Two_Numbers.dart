@@ -29,6 +29,12 @@
  *   ListNode([this.val = 0, this.next]);
  * }
  */
+class ListNode {
+   int val;
+   ListNode? next;
+   ListNode([this.val = 0, this.next]);
+ }
+
 class Solution {
   ListNode? addTwoNumbers(ListNode? l1, ListNode? l2) {
     BigInt a = getReversedNum(l1);
@@ -69,7 +75,7 @@ class Solution {
 }
 
 // IMPROVED VERSION
-class Solution {
+class Solution2 {
   ListNode? addTwoNumbers(ListNode? l1, ListNode? l2) {
     ListNode dummyHead = ListNode(0);
     ListNode curr = dummyHead;
