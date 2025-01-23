@@ -35,7 +35,7 @@ class Solution2 {
 }
 
 // Approach 3: One-pass Hash Table
-class Solution {
+class Solution3 {
   List<int> twoSum(List<int> nums, int target) {
     final Map<int, int> map = Map();
 
